@@ -1,0 +1,101 @@
+/*  css for homework assignment #1 (easier)
+    Building a Wireframe 
+    Rhonda Johnson Mon-Wed*/
+
+    * {
+        box-sizing: border-box;
+        text-align: center;
+    }
+    
+    body{
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777;
+        background-color: #777;
+        width: 960px;
+        font-size: 18px;
+    }
+    
+    header {
+        background-color: #ebebeb;  
+    }
+    
+    nav {
+        background-color: #ebebeb;
+        padding: 3px;
+        margin-bottom: 20px;
+        margin-left: 200px;
+    }  
+    
+    section {
+        background-color: #ebebeb;
+        width: 495px;    
+        float: left;
+        margin-left: 200px;
+        margin-bottom: 20px;
+        padding: 20px 10px 10px 10px; 
+        height: 260px;   
+    }
+    
+    article{
+        color: #ebebeb;
+        background-color: #777;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    aside {
+        background-color: #ebebeb;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        float: left;
+        height: 260px;
+        width: 245px;
+    }
+    
+    footer {
+        background-color: #ebebeb;
+        clear: both;
+        margin-left: 200px;
+        padding: 3px;
+    }
+    
+    h1,h4{
+        color: #777;
+        background-color: #ebebeb;  
+    }
+    
+    p{
+        color: #777;
+        background-color: #ebebeb;    
+    }
+    
+    #headerTop{
+        margin-left: 200px;   
+        margin-bottom: 15px;
+        padding: 3px;
+    }
+    
+    #articleHeader{
+        padding-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: #777;
+    }
+    
+    #articleH4{
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;  
+        margin-bottom: 5px; 
+    }
+    
+    #articleParagraph{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
