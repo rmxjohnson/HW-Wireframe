@@ -7,12 +7,19 @@
         text-align: center;
     }
     
+    html, body { margin: 0; padding: 0; }
+    
     body{
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         color: #777;
         background-color: #777;
+        font-size: 18px;      
+    }
+
+    #mainContent{
         width: 960px;
-        font-size: 18px;
+        margin-right: auto;
+        margin-left: auto;
     }
     
     header {
@@ -23,14 +30,12 @@
         background-color: #ebebeb;
         padding: 3px;
         margin-bottom: 20px;
-        margin-left: 200px;
     }  
     
     section {
         background-color: #ebebeb;
         width: 495px;    
         float: left;
-        margin-left: 200px;
         margin-bottom: 20px;
         padding: 20px 10px 10px 10px; 
         height: 260px;   
@@ -50,13 +55,12 @@
         margin-left: 20px;
         float: left;
         height: 260px;
-        width: 245px;
+        width: 445px;
     }
     
     footer {
         background-color: #ebebeb;
         clear: both;
-        margin-left: 200px;
         padding: 3px;
     }
     
@@ -70,9 +74,9 @@
         background-color: #ebebeb;    
     }
     
-    #headerTop{
-        margin-left: 200px;   
+    #headerTop{ 
         margin-bottom: 15px;
+        margin-top: 10px;
         padding: 3px;
     }
     
